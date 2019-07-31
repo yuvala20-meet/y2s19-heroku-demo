@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def fashion():
-	return render_template('fasion.html')
+	return render_template('fashion.html')
 
 @app.route('/accessories')
 def accessories():
